@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>OpenNSM</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on OpenNSM</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 16 Jun 2015 17:40:00 -0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>meetings</title>
+      <link>http://localhost:1313/meetings/</link>
+      <pubDate>Tue, 16 Jun 2015 17:40:00 -0500</pubDate>
+      
+      <guid>http://localhost:1313/meetings/</guid>
+      <description>&lt;!DOCTYPE HTML PUBLIC &#34;-//W3C//DTD HTML 4.01 Transitional//EN&#34;
+&#34;http://www.w3.org/TR/html4/loose.dtd&#34;&gt;
+&lt;html&gt;
+        &lt;head&gt;
+                &lt;title&gt;Network Security Monitoring&lt;/title&gt;
+                &lt;link rel=&#34;stylesheet&#34; href=&#34;opennsm.css&#34; title=&#34;OpenNSM&#34; /&gt;
+        &lt;/head&gt;
+        &lt;body&gt;&lt;div id=&#34;container&#34;&gt;
+                &lt;img id=&#34;logo&#34; src=&#34;opennsm-logo.jpg&#34; alt=&#34;Tux&#34; /&gt;
+                &lt;h1&gt;The Open (-Source) Network Security Monitoring Group&lt;/h1&gt;
+                &lt;h2&gt;@UIUC&lt;/h2&gt;
+                &lt;h2&gt;a.k.a SIG NET&lt;/h2&gt;
+                
+
+&lt;p&gt;The Open (-Source) Network Security Monitoring Group (OpenNSM) meets at &lt;strong&gt;6:00pm CST on Mondays&lt;/strong&gt;
+in 301 (3rd floor) &lt;a href=&#34;http://csl.illinois.edu/&#34;&gt;CSL&lt;/a&gt; &lt;br&gt;
+&lt;p&gt;Would you like to give a talk? e-mail us at talk@open-nsm.net&lt;/p&gt; &lt;br&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Doors close at 6 PM so if you&#39;re late someone will have to let you in or attend remotely.&lt;/p&gt;
+&lt;h3 align=&#34;left&#34;&gt;Past Presentations:&lt;/h3&gt;
+&lt;p style=&#34;font-size: 12px;&#34;&gt;
+2015-05-11 &lt;a href=&#34;https://github.com/open-nsm/meetings/raw/master/2015-05-11/MalwarePatching_Preso.pptx&#34;&gt;Patching Malware&lt;/a&gt; by &lt;a href=&#34;https://twitter.com/kujman5000&#34;&gt;Adam Kujawa&lt;/a&gt; (&lt;a href=&#34;https://www.youtube.com/watch?v=am7A9Xd53nc&#34;&gt;Youtube&lt;/a&gt;)  &lt;br&gt;
+2015-05-04 &lt;a href=&#34;https://github.com/NetworkScout/ns&#34;&gt;Network Scout&lt;/a&gt; by &lt;a href=&#34;https://twitter.com/ph_shawn&#34;&gt;Shawn Jordan&lt;/a&gt; (&lt;a href=&#34;https://www.youtube.com/watch?v=GRPsQ7h6k3E&#34;&gt;Youtube&lt;/a&gt;)  &lt;br&gt;
+2015-04-27 &lt;a href=&#34;https://github.com/yelp/osxcollector&#34;&gt;OSX Collector&lt;/a&gt; by &lt;a href=&#34;https://twitter.com/c0wl&#34;&gt;Ivan Leichtling&lt;/a&gt; (&lt;a href=&#34;https://www.youtube.com/watch?v=Yqny1rMTfyY&#34;&gt;Youtube&lt;/a&gt;)  &lt;br&gt;
+2015-04-13 &lt;a href=&#34;https://github.com/justinazoff&#34;&gt;Graphing Bro Metrics, BHR, and Ninfo&lt;/a&gt; by &lt;a href=&#34;https://twitter.com/justinazoff&#34;&gt;Justin Azoff&lt;/a&gt; (&lt;a href=&#34;https://www.youtube.com/watch?v=VkBYyG3y1h0&#34;&gt;Youtube&lt;/a&gt;)  &lt;br&gt;
+2015-04-06 &lt;a href=&#34;https://www.elastic.co/&#34;&gt;ElasticNSM&lt;/a&gt; by &lt;a href=&#34;http://www.505forensics.com/&#34;&gt;Matt Bromiley&lt;/a&gt;, Brian Marks (&lt;a href=&#34;https://vimeo.com/124270105&#34;&gt;Vimeo&lt;/a&gt;)  &lt;br&gt;
+2015-03-09 &lt;a href=&#34;https://github.com/google/stenographer&#34;&gt;Stenographer&lt;/a&gt; by &lt;a href=&#34;https://github.com/gconnell&#34;&gt;Graeme Connell&lt;/a&gt; (&lt;a href=&#34;https://www.youtube.com/watch?v=lZlOBW7L3rs&#34;&gt;Youtube&lt;/a&gt;)  &lt;br&gt;
+2015-03-02 &lt;a href=&#34;http://z0inks.com/files/presentations/phreaknic18-malwareAnalysis.pdf&#34;&gt;Malware Reverse Engineering&lt;/a&gt; by &lt;a href=&#34;https://twitter.com/BrandonTansey&#34;&gt;Brandon Tansey&lt;/a&gt; (&lt;a href=&#34;https://www.youtube.com/watch?v=0r58gQyrMvk&#34;&gt;Youtube&lt;/a&gt;)  &lt;br&gt;
+2015-02-23 &lt;a href=&#34;https://github.com/google/grr&#34;&gt;GRR: GRR Rapid Response&lt;/a&gt; by &lt;a href=&#34;https://twitter.com/mrgcastle&#34;&gt;Greg Castle&lt;/a&gt; (&lt;a href=&#34;https://www.youtube.com/watch?v=ZAXtCMspgY0&#34;&gt;Youtube&lt;/a&gt;)  &lt;br&gt;
+2015-02-16 &lt;a href=&#34;https://intel.criticalstack.com/&#34;&gt;Critical Stack Intel&lt;/a&gt; by &lt;a href=&#34;https://twitter.com/mephux&#34;&gt;Dustin Webber&lt;/a&gt; (&lt;a href=&#34;https://www.youtube.com/watch?v=JL99eJdTDOQ&#34;&gt;Youtube&lt;/a&gt;)  &lt;br&gt;
+2015-02-09 &lt;a href=&#34;http://osquery.io&#34;&gt;osquery&lt;/a&gt; by &lt;a href=&#34;http://prosauce.org/&#34;&gt;Teddy Reed&lt;/a&gt;, &lt;a href=&#34;http://twitter.com/mikearpaia&#34;&gt;Mike Arpaia&lt;/a&gt; (&lt;a href=&#34;https://www.youtube.com/watch?v=fV5G85VaZHI&#34;&gt;Youtube&lt;/a&gt;) &lt;br&gt;
+2015-02-02 &lt;a href=&#34;http://www.rsyslog.com/&#34;&gt;Rsyslog Logging Infrastructure&lt;/a&gt; by &lt;a href=&#34;http://jonschipp.com&#34;&gt;Jon Schipp&lt;/a&gt; (&lt;a href=&#34;https://www.youtube.com/watch?v=2luQpzq1z9I&#34;&gt;Youtube&lt;/a&gt;)&lt;br&gt;
+2015-01-26 &lt;a href=&#34;http://flowbat.com&#34;&gt;Applied Detection and Flow Analysis&lt;/a&gt; by &lt;a href=&#34;https://twitter.com/chrissanders88&#34;&gt;Chris Sanders&lt;/a&gt;,&lt;a href=&#34;https://twitter.com/Automayt&#34;&gt;Jason Smith&lt;/a&gt; (&lt;a href=&#34;https://www.youtube.com/watch?v=oIxbV9wwE4Q&#34;&gt;Youtube&lt;/a&gt;) &lt;br&gt;
+2014-12-08 &lt;a href=&#34;http://sagan.io&#34;&gt;Sagan&lt;/a&gt; by &lt;a href=&#34;https://twitter.com/dabeave666&#34;&gt;Champ Clark&lt;/a&gt; (&lt;a href=&#34;https://www.youtube.com/watch?v=hdE9XABCylE&#34;&gt;Youtube&lt;/a&gt;) &lt;br&gt;
+2014-12-01 &lt;a href=&#34;http://www.malware-traffic-analysis.net/&#34;&gt;Malware Traffic Analysis&lt;/a&gt; by &lt;a href=&#34;://twitter.com/malware_traffic&#34;&gt;Brad Duncan&lt;/a&gt; (&lt;a href=&#34;https://www.youtube.com/watch?v=tMavalH5rco&#34;&gt;Youtube&lt;/a&gt;) &lt;br&gt;
+2014-11-10 &lt;a href=&#34;https://www.bro.org/sphinx-git/frameworks/file-analysis.html&#34;&gt;Bro&#39;s File Analysis Framework&lt;/a&gt; by &lt;a href=&#34;http://icir.org/seth&#34;&gt;Seth Hall&lt;a/&gt; (&lt;a href=&#34;https://www.youtube.com/watch?v=JL99eJdTDOQ&#34;&gt;Youtube&lt;/a&gt;) &lt;br&gt;
+2014-11-03 &lt;a href=&#34;http://securityonion.net&#34;&gt;SecurityOnion&lt;/a&gt; by &lt;a href=&#34;https://www.sans.org/instructors/doug-burks&#34;&gt;Doug Burks&lt;a/&gt; &lt;br&gt;
+2014-10-27 &lt;a href=&#34;https://www.bro.org/sphinx-git/frameworks/logging.html&#34;&gt;Bro&#39;s Logging Framework&lt;/a&gt; by &lt;a href=&#34;https://github.com/grigorescu&#34;&gt;Vlad Grigorescu&lt;a/&gt; (&lt;a href=&#34;https://www.youtube.com/watch?v=yaj2CW-XAQQ&#34;&gt;Youtube&lt;/a&gt;) &lt;br&gt;
+2014-10-20 &lt;a href=&#34;https://github.com/jonschipp/islet&#34;&gt;ISLET&lt;/a&gt; by &lt;a href=&#34;http://jonschipp.com&#34;&gt;Jon Schipp&lt;a/&gt; &lt;br&gt;
+2014-10-13 OSSEC by &lt;a href=&#34;http://mikedowney.info/&#34;&gt;Mike Downey&lt;a/&gt; &lt;br&gt;
+2014-10-06 Openflow by Shane Rogers &lt;br&gt;
+2014-09-29 Tcpdump by &lt;a href=&#34;http://jonschipp.com&#34;&gt;Jon Schipp&lt;/a&gt; &lt;br&gt;
+2014-09-22 Implementing a Network Security Monitoring System by &lt;a href=&#34;http://jonschipp.com&#34;&gt;Jon Schipp&lt;/a&gt; &lt;br&gt;
+2014-09-15 Bro by Jon Schipp &lt;a href=&#34;http://jonschipp.com&#34;&gt;Jon Schipp&lt;/a&gt; &lt;br&gt;
+2014-09-08 Tragfen by &lt;a href=&#34;http://jonschipp.com&#34;&gt;Jon Schipp&lt;/a&gt; &lt;br&gt;
+&lt;/p&gt;
+
+			&lt;br&gt;&lt;p&gt;&lt;i&gt;Site last updated on May 04, 2015&lt;/i&gt;&lt;/p&gt;
+                &lt;/div&gt;
+        &lt;/div&gt;&lt;/body&gt;
+&lt;/html&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>about</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Tue, 16 Jun 2015 17:40:00 -0500</pubDate>
+      
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;!DOCTYPE HTML PUBLIC &#34;-//W3C//DTD HTML 4.01 Transitional//EN&#34;
+&#34;http://www.w3.org/TR/html4/loose.dtd&#34;&gt;
+&lt;html&gt;
+        &lt;head&gt;
+                &lt;title&gt;Open Network Security Monitoring Group (OpenNSM) at UIUC&lt;/title&gt;
+                &lt;link rel=&#34;stylesheet&#34; href=&#34;opennsm.css&#34; title=&#34;OpenNSM&#34; /&gt;
+        &lt;/head&gt;
+        &lt;body&gt;&lt;div id=&#34;container&#34;&gt;
+                &lt;img id=&#34;logo&#34; src=&#34;opennsm_about.png&#34; alt=&#34;OpenNSM Logo&#34; width=&#34;50%&#34; height=&#34;60%&#34;/&gt;
+                &lt;h1&gt;The Open (-Source) Network Security Monitoring Group&lt;/h1&gt;
+                &lt;h2&gt;@UIUC&lt;/h2&gt;
+                &lt;p align=&#34;right&#34;&gt;
+                &lt;a target=&#34;_blank&#34; style=&#34;border:none;&#34; href=&#34;http://www.gofundme.com/opennsm?utm_medium=wdgt&#34; title=&#34;Visit this page now.&#34;&gt;&lt;img style=&#34;border:none;&#34; src=&#34;https://funds.gofundme.com/css/3.0_donate/blue/widget.png&#34;&gt;&lt;/a&gt;
+                &lt;/p&gt;
+                
+
+                &lt;p&gt;We&#39;re currently on &lt;strong&gt;Summer break:&lt;/strong&gt; &lt;u&gt;We will resume in mid-August&lt;/u&gt;&lt;/p&gt;
+                &lt;p&gt;The Open (-Source) Network Security Monitoring Group (OpenNSM) meets at &lt;strong&gt;6:00 CST on Mondays&lt;/strong&gt;. &lt;br&gt;
+		&lt;p&gt;We&#39;re not aware of any other active NSM user groups in the United States, and have the ambitious goal of being a premier place for students, professionals, and hobbyists, from all over to share their research, tools, and techniques in a laid back and friendly environment.&lt;/p&gt;
+
+                        &lt;p&gt;OpenNSM aims to provide a place for network security analysts and those interested in information security to
+                        share tricks, solutions, work on projects, and other knowledge about the subject. Come join us!&lt;/p&gt;
+
+			&lt;h3 align=&#34;left&#34;&gt;Areas of focus:&lt;/h3&gt;
+                        &lt;ol&gt;
+                        &lt;li&gt;The Bro Programming Language&lt;/li&gt;
+                        &lt;li&gt;Libpcap programming&lt;/li&gt;
+                        &lt;li&gt;Writing IDS Signatures&lt;/li&gt;
+                        &lt;li&gt;Packet Analysis&lt;/li&gt;
+                        &lt;li&gt;Log Analysis&lt;/li&gt;
+                        &lt;li&gt;Malware Analysis&lt;/li&gt;
+                        &lt;li&gt;IDS and Firewall Evasion Techniques&lt;/li&gt;
+                        &lt;li&gt;SecurityOnion Enhancements&lt;/li&gt;
+                        &lt;li&gt;Much more!&lt;/li&gt;
+                        &lt;/ol&gt;
+
+
+			&lt;h3 align=&#34;left&#34;&gt;Communication &amp; Collaboration:&lt;/h3&gt;
+			&lt;p&gt;[&lt;a href=&#34;https://lists.illinois.edu/lists/subscribe/open-nsm&#34;&gt;Mailing List&lt;/a&gt;] - Meeting information and discussion list &lt;br&gt;
+			[&lt;a href=&#34;https://lists.illinois.edu/lists/subscribe/open-nsm-admin&#34;&gt;Coordination Mailing List&lt;/a&gt;] - Admin stuff, Git commits, Nagios, Cron, etc. &lt;br&gt;
+                        [&lt;a href=&#34;https://www.facebook.com/groups/opennsmnow/&#34;&gt;Facebook Group&lt;/a&gt;,
+                        &lt;a href=&#34;https://github.com/open-nsm&#34;&gt;Github&lt;/a&gt;,
+                        &lt;a href=&#34;https://github.com/open-nsm/meetings&#34;&gt;Meeting Notes&lt;/a&gt;,
+                        &lt;a href=&#34;https://www.youtube.com/user/OpenNSM&#34;&gt;Youtube&lt;/a&gt;, &lt;a href=&#34;https://vimeo.com/opennsm&#34;&gt;Vimeo&lt;/a&gt; ] &lt;br&gt;
+			&lt;a href=&#34;https://twitter.com/OpenNSM&#34;&gt;@OpenNSM&lt;/a&gt; - Official Twitter account &lt;br&gt;
+			&lt;a href=&#34;https://twitter.com/UIUC_ACM_Bot&#34;&gt;@UIUC_ACM_Bot&lt;/a&gt; - Github commits on Twitter &lt;br&gt;
+			IRC: irc.freenode.net ##opennsm &lt;br&gt;
+			&lt;p&gt;
+
+                        &lt;p&gt;&lt;u&gt;For the latest meeting and group information you must join our Facebook group or mailing list&lt;/u&gt;&lt;/p&gt;
+
+			(We also run the Linux User Group so come join us at &lt;a href=&#34;http://www.acm.uiuc.edu/lug/&#34;&gt;LUG&lt;/a&gt; after.)
+
+			&lt;br&gt;&lt;p&gt;&lt;i&gt;Site last updated on March 04, 2015&lt;/i&gt;&lt;/p&gt;
+                &lt;/div&gt;
+        &lt;/div&gt;&lt;/body&gt;
+&lt;/html&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>past meetings</title>
+      <link>http://localhost:1313/past/</link>
+      <pubDate>Tue, 16 Jun 2015 17:40:00 -0500</pubDate>
+      
+      <guid>http://localhost:1313/past/</guid>
+      <description>&lt;!DOCTYPE HTML PUBLIC &#34;-//W3C//DTD HTML 4.01 Transitional//EN&#34;
+&#34;http://www.w3.org/TR/html4/loose.dtd&#34;&gt;
+&lt;html&gt;
+        &lt;head&gt;
+                &lt;title&gt;Network Security Monitoring&lt;/title&gt;
+                &lt;link rel=&#34;stylesheet&#34; href=&#34;opennsm.css&#34; title=&#34;OpenNSM&#34; /&gt;
+        &lt;/head&gt;
+        &lt;body&gt;&lt;div id=&#34;container&#34;&gt;
+                &lt;img id=&#34;logo&#34; src=&#34;opennsm_splash.jpg&#34; alt=&#34;OpenNSM Logo&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt;
+                &lt;h1&gt;The Open (-Source) Network Security Monitoring Group&lt;/h1&gt;
+                &lt;h2&gt;@UIUC&lt;/h2&gt;
+                &lt;h2&gt;a.k.a SIG NET&lt;/h2&gt;
+                &lt;div id=&#34;navcontainer&#34;&gt;
+                        
+                &lt;/div&gt;
+		&lt;div id=&#34;content&#34;&gt;
+
+			&lt;p&gt;Meeting pictures&lt;/p&gt;
+                       
+                        &lt;img src=&#34;images/nsm1.jpg&#34; alt=&#34;NSM Photo1&#34;&gt;
+                        &lt;img src=&#34;images/nsm2.jpg&#34; alt=&#34;NSM Photo2&#34;&gt;
+                        &lt;img src=&#34;images/nsm3.jpg&#34; alt=&#34;NSM Photo3&#34;&gt;
+                        &lt;img src=&#34;images/nsm-gotomeeting.jpg&#34; alt=&#34;NSM Photo GoToMeeting&#34;&gt;
+                &lt;/div&gt;
+        &lt;/div&gt;&lt;/body&gt;
+&lt;/html&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>sample</title>
+      <link>http://localhost:1313/sample/</link>
+      <pubDate>Tue, 16 Jun 2015 17:40:00 -0500</pubDate>
+      
+      <guid>http://localhost:1313/sample/</guid>
+      <description>&lt;div&gt;Short Description of {{.Site.Data.sample}} : &lt;p&gt;{{ index .Site.Data.sample &#34;Short Description&#34; | markdownify }}&lt;/p&gt;&lt;/div&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

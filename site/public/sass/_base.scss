@@ -1,0 +1,143 @@
+@charset "UTF-8";
+@import "compass";
+@import "normalize";
+
+//////// BREAKPOINTS //////////////////
+$break1: 1000px;
+$break2: 900px;
+$break3: 650px;
+
+// for the big new profile pictures: we need to switch to width 100%
+$break4: 400px;
+
+//////// MIXINS //////////////////
+@mixin hide {
+  position: absolute;
+  left: -999em;
+  /* apparently this second push is for old Opera:
+  /* http://css-tricks.com/snippets/css/accessibilityseo-friendly-css-hiding/ */
+  top: -999px;
+}
+@mixin inline($separator, $all) {
+  ul, li {
+    /* http://www.alistapart.com/articles/taminglists/ */
+    display: inline;
+    margin: 0;
+    padding-left: 0;
+  }
+  @if $all == "all" {
+    li {
+      &::before {
+        content: $separator;
+        font-weight: normal;
+      }
+    }
+  }
+  @if $all != "all" {
+    li:nth-of-type(n+2) {
+      &::before {
+        content: $separator;
+        font-weight: normal;
+      }
+    }
+  }
+}
+/* ----------------------
+/* APPLY THESE EVERYWHERE
+/* -------------------- */
+
+/* apply a natural box layout model to all elements */
+// http://www.paulirish.com/2012/box-sizing-border-box-ftw/
+*, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+}
+// DON'T FORGET YOU HAVE TO SET BORDERS EVERYWHERE NOW, ASSHOLE
+
+body {
+  font-family: "adobe-garamond-pro";
+  font-size: 16pt;
+}
+
+blockquote {
+  margin: 0;
+  font-style: italic;
+  em {
+    font-style: normal;
+  }
+}
+
+span.active,
+span.position,
+p.read-more,
+p.prev,
+p.next,
+.event-type,
+.event-info,
+time.news-time,
+footer.list-footer,
+footer.news {
+  font-style: italic;
+}
+
+/* ------------------
+/* HELL YEAH HEADERS
+/* --------------- */
+h1 {
+  font-size: 225%;
+}
+h2 {
+  font-size: 150%;
+}
+h3 {
+  font-size: 131.25%;
+}
+h4,
+h5,
+h6 {
+  font-size: 112.5%;
+}
+h5,
+h6 {
+  font-style: italic;
+}
+h6 {
+  font-weight: normal;
+}
+
+//// MEDIA QUERIES
+@media screen and (max-width: $break2) {
+  h1 {
+    font-size: 225%;
+  }
+  h2 {
+    font-size: 150%;
+  }
+  h3 {
+    font-size: 131.25%;
+  }
+  h4,
+  h5,
+  h6 {
+    font-size: 112.5%;
+  }
+}
+
+@media screen and (max-width: $break3) {
+  body {
+    font-size: 14pt;
+  }
+  h1 {
+    font-size: 171.5%;
+  }
+  h2 {
+    font-size: 150%;
+  }
+  h3 {
+    font-size: 128.5%;
+  }
+  h4,
+  h5,
+  h6 {
+    font-size: 114.3%;
+  }
+}

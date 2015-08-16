@@ -1,0 +1,491 @@
+@charset "UTF-8";
+@import "base";
+
+//////// BORDERS ////////////////
+$narrow: 5%;
+$tiny: 2%;
+$basic-border: 3px;
+$basic-radius: 4px;
+
+//////// COLORS //////////////////
+// http://davidshariff.com/blog/css-transparent-background/
+$phi-sigma-tau: #cc9966;
+
+/////////////////////////////////////////////////////////////////////////
+// university colors: http://www.ucsb.edu/webguide/ucsb-graphic-identity
+/////////////////////////////////////////////////////////////////////////
+
+$ucsb-b: #00338e;
+$ucsb-g: #ffc82e;
+$light: mix(#f7fffb,white,50%);
+
+$rb: mix(black,$ucsb-b,50%);
+$rg: mix(black,$ucsb-g,50%);
+
+$cool: mix($ucsb-b,$light,50%);
+
+$alt-anchor: $ucsb-g;
+$alt-anchor-visited: mix($light,$ucsb-b,50%);
+
+$anchor: $ucsb-b;
+$anchor-visited: mix(black,$ucsb-g,50%);
+
+/* --------------------------------------*/
+/* BLOCK LEVEL ELEMENTS
+/* --------------------------------------*/
+
+/* "hide" assistive text by pushing it off-screen */
+.assistive-text {
+  @include hide;
+}
+
+body {
+  background-color: $light;
+  color: $rb
+}
+
+.page-header,
+.page-footer {
+  clear: both;
+}
+
+.page-header {
+  border-top: .5em solid rgba($ucsb-b,0);
+
+  background-color: $ucsb-b;
+  background-image: url("../images/ucsb-transparent-0285.png");
+  background-size: 300px;
+  background-position: left 50px top -100px;
+  background-repeat: no-repeat;
+/* http://stackoverflow.com/a/11540613/1431858 */
+  a {
+    color: $ucsb-g;
+    text-decoration: none;
+    &:hover,
+    &:active {
+      color: $light;
+    }
+  }
+}
+.headline {
+  color: $light;
+  float: right;
+  line-height: 100%;
+
+  padding-right: $narrow;
+  padding-left: $narrow;
+}
+
+.top-nav {
+  clear: both;
+
+  font-size: 131.25%;
+  line-height: 125%;
+  font-weight: bold;
+  text-align: center;
+
+  padding: .5em $tiny .5em $tiny;
+
+  background-color: mix(black,$ucsb-b,75%);
+  border-top: .125em solid $ucsb-g;
+  border-bottom: .125em solid $rb;
+
+  a {
+    color: $cool;
+    &:hover,
+    &:active {
+      color: $light;
+    }
+  }
+  a.in-scope {
+    color: $light;
+  }
+  li.at-top-level {
+    color: $light;
+  }
+
+  // alternating regular and zero-width spaces
+  @include inline("φ ​ ",0);
+  // to make the separator colored right:
+  li {
+    padding-left: .35em;
+    &::before {
+      color: $ucsb-g;
+    }
+  }
+}
+p.important {
+  font-style: italic;
+  float: left;
+  padding: .75em 2.5em;
+}
+
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 100%;
+}
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0;
+}
+
+main {
+  & > * {
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+}
+main,
+.page-footer {
+  margin: 0 auto;
+}
+
+.page-footer {
+  padding: 1em 2em;
+  background-position: right 1em bottom 1em;
+  background-color: black;
+  background-image: url("../images/ucsb-transparent-0285.png");
+  background-repeat: no-repeat;
+
+  text-align: left;
+  overflow: hidden;
+
+  color: white;
+  border-top: .25em white solid;
+  a {
+    color: $alt-anchor;
+    &:hover,
+    &:active {
+      color: $alt-anchor-visited;
+    }
+  }
+}
+
+.footer-meta,
+.footer-people,
+.footer-address {
+  float: left;
+  width: 33%;
+  padding-right: 2em;
+}
+
+.category-header {
+  text-align: center;
+}
+
+img {
+  margin: 0 0 .5em .5em;
+  width: auto;
+  border: $basic-border solid $rb;
+  @include border-radius($basic-radius);
+}
+.important {
+  float: right;
+  border: none;
+}
+.profile img {
+  float: right;
+  // width/height still required: https://github.com/scottjehl/picturefill/issues/266#issuecomment-55668545
+  height: 350px;
+  width: auto;
+  margin-top: 1em;
+}
+.single img {
+  margin-right: 2em;
+  height: 400px;
+}
+.sub img {
+  height: 300px;
+}
+// keep images on small profiles from spilling over into the next
+hr {
+  clear: both;
+}
+
+// these are for Nathan's gallery
+figure + figure {
+  margin-top: 1em;
+}
+img.fig {
+  float: none;
+}
+
+.group-header {
+  margin-top: 1.5em;
+  padding: 1em;
+  text-align: right;
+
+  border-width: $basic-border;
+  @include border-radius($basic-radius);
+  border-style: solid;
+  background-position: left;
+  background-repeat: no-repeat;
+}
+.minorities-in-philosophy {
+  color: $ucsb-g;
+  border-color: black;
+  background-color: black;
+  background-size: fill;
+  background-image: url("../images/life/map/header.png");
+}
+.phi-sigma-tau {
+  color: white;
+  border-color: $phi-sigma-tau;
+  // http://stackoverflow.com/a/20093999
+  background-size: contain;
+  background-color: $phi-sigma-tau;
+  background-image: url("../images/life/phi-white-header-crop.jpeg");
+}
+
+.news-time {
+  margin-top: 0;
+}
+
+ul.upcoming-events,
+ul.past-events,
+ul.recurring-events {
+  list-style-type: none;
+  list-style-position: outside;
+  text-indent: -1em;
+}
+
+.event-time,
+.pubdate {
+  border-bottom: 1px solid black;
+}
+
+p.prev {
+  // remove if no <hr>
+  margin-bottom: 0;
+}
+p.prev,
+p.next,
+p.read-more,
+.list-footer,
+footer.news {
+  text-align: center;
+}
+
+.numbered-header {
+  text-indent: -.25em;
+}
+
+.info-pop {
+  margin-top: $tiny;
+  padding-left: 1em;
+  padding-right: 1em;
+
+  color: white;
+  background-color: mix($light,$rb,10%);
+  border: $basic-border solid $rb;
+  @include border-radius($basic-radius);
+}
+ul.course {
+  list-style-type: none;
+  -moz-padding-start: 0px;
+  -o-padding-start: 0px;
+  -ms-padding-start: 0px;
+  -webkit-padding-start: 0px;
+  padding-start: 0px;
+}
+
+hr {
+  padding: 0 0 2em 0;
+  border: none;
+  &:before {
+    content: "φ";
+    padding-left: 47%;
+    font-size: 150%;
+  }
+}
+
+/* --------------------------------*/
+/* INLINE ELEMENTS
+/* --------------------------------*/
+a {
+  color: $anchor;
+  &:hover,
+  &:active {
+    color: $anchor-visited;
+  }
+}
+
+a.expansive {
+  text-decoration: none;
+}
+
+.course-time {
+  overflow: hidden;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin-top: .5em;
+  border: 1px solid $ucsb-b;
+}
+
+/* ------------------------------------*/
+/* PAGE LAYOUT
+/* ------------------------------------*/
+
+.split {
+  .first {
+    float: left;
+    width: 50%;
+  }
+  .second {
+    float: right;
+    width: 50%;
+  }
+}
+.seventy-thirty {
+  .first {
+    float: right;
+    width: 30%;
+    border-left: 5px solid $rb;
+  }
+  .second {
+    float: left;
+    width: 70%;
+  }
+  article.index {
+    padding-left: 5%;
+    padding-right: 5%;
+    border-left: 5px solid $rb;
+  }
+}
+
+.full > * {
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+/* -------------------------------------*/
+/*  Media Queries are OK I guess
+/* -------------------------------------*/
+
+@media screen and (min-width: $break1) {
+  .small-screen {
+    @include hide;
+  }
+}
+
+@media screen and (max-width: $break1) {
+  body::after {
+    background-size: 200px;
+  }
+  .headline {
+  }
+  .top-nav {
+    padding-left: 1em;
+  }
+
+  .split,
+  .seventy-thirty {
+    .second,
+    .first {
+      float: none;
+      width: auto;
+    }
+  }
+
+  .footer-meta,
+  .footer-people,
+  .footer-address {
+    float: none;
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: $break2) {
+  body::after {
+    background-size: 150px;
+  }
+
+  .headline,
+  p.important {
+    float: none;
+    text-align: left;
+  }
+  p.important {
+    padding: 0 $narrow;
+    margin-top: -1em;
+  }
+  .top-nav {
+    font-size: 131.25%;
+  }
+
+  .collapse {
+    /* not sure why this [overflow?] is necessary */
+    overflow: hidden;
+    margin-top: 0;
+    padding-bottom: 1em;
+    @include inline("• ",0);
+  }
+}
+
+@media screen and (max-width: $break3) {
+  body {
+    &::after {
+      background-size: 100px;
+    }
+  }
+  .seventy-thirty,
+  .split {
+    article.index {
+      padding-left: 0;
+      padding-right: 0;
+      border: none;
+    }
+  }
+  .top-nav {
+    text-align: center;
+    font-size: 112.5%;
+    line-height: 125%;
+  }
+  .important-header,
+  .news-time,
+  .news-title {
+    text-align: center;
+  }
+  .news-img,
+  .profile img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+  }
+
+  .profile-name {
+    text-align: center;
+  }
+
+  .page-footer {
+    padding: $tiny;
+  }
+  .footer-address,
+  .footer-people,
+  .footer-meta {
+    width: auto;
+    padding-right: 0;
+  }
+}
+
+@media screen and (max-width: $break3) {
+  .optional {
+    @include hide;
+  }
+}
+
+////// for dealing with profile pictures on small displays
+@media screen and (max-width: $break4) {
+  .profile img {
+    height: auto;
+    max-width: 100%;
+  }
+}

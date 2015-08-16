@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on My New Hugo Site</title>
+    <link>http://localhost:1313/post/</link>
+    <description>Recent content in Posts on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 16 Jun 2015 17:48:14 -0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>about us</title>
+      <link>http://localhost:1313/post/first/</link>
+      <pubDate>Tue, 16 Jun 2015 17:48:14 -0500</pubDate>
+      
+      <guid>http://localhost:1313/post/first/</guid>
+      <description>
+
+&lt;h1 id=&#34;nsm:e8fb9c67eba912c72729806db31eaa1b&#34;&gt;NSM&lt;/h1&gt;
+
+&lt;h2 id=&#34;we-re-currently-on-summer-break-we-will-resume-in-mid-august:e8fb9c67eba912c72729806db31eaa1b&#34;&gt;We&amp;rsquo;re currently on Summer break: We will resume in mid-August&lt;/h2&gt;
+
+&lt;p&gt;The Open (-Source) Network Security Monitoring Group (OpenNSM) meets at 6:00 CST on Mondays.
+We&amp;rsquo;re not aware of any other active NSM user groups in the United States, and have the ambitious goal of being a premier place for students, professionals, and hobbyists, from all over to share their research, tools, and techniques in a laid back and friendly environment.&lt;/p&gt;
+
+&lt;p&gt;OpenNSM aims to provide a place for network security analysts and those interested in information security to share tricks, solutions, work on projects, and other knowledge about the subject. Come join us!&lt;/p&gt;
+
+&lt;h2 id=&#34;areas-of-focus:e8fb9c67eba912c72729806db31eaa1b&#34;&gt;Areas of focus:&lt;/h2&gt;
+
+&lt;p&gt;The Bro Programming Language
+Libpcap programming
+Writing IDS Signatures
+Packet Analysis
+Log Analysis
+Malware Analysis
+IDS and Firewall Evasion Techniques
+SecurityOnion Enhancements
+Much more!
+Communication &amp;amp; Collaboration:&lt;/p&gt;
+
+&lt;h2 id=&#34;mailing-list-meeting-information-and-discussion-list:e8fb9c67eba912c72729806db31eaa1b&#34;&gt;[Mailing List] - Meeting information and discussion list&lt;/h2&gt;
+
+&lt;p&gt;[Coordination Mailing List] - Admin stuff, Git commits, Nagios, Cron, etc.
+[Facebook Group, Github, Meeting Notes, Youtube, Vimeo ]
+@OpenNSM - Official Twitter account
+@UIUC_ACM_Bot - Github commits on Twitter
+IRC: irc.freenode.net ##opennsm
+For the latest meeting and group information you must join our Facebook group or mailing list&lt;/p&gt;
+
+&lt;p&gt;(We also run the Linux User Group so come join us at LUG after.)&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

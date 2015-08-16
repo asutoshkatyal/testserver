@@ -1,0 +1,6 @@
+baseurl = "http://replace-this-with-your-hugo-site.com/"
+languageCode = "en-us"
+title = "OpenNSM"
+theme = "hyde" 
+menu = "code"  
+description = "A cyber-security group"
