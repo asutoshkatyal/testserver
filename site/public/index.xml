@@ -69,6 +69,41 @@ in 301 (3rd floor) &lt;a href=&#34;http://csl.illinois.edu/&#34;&gt;CSL&lt;/a&gt
     </item>
     
     <item>
+      <title>past meetings</title>
+      <link>http://localhost:1313/past/</link>
+      <pubDate>Tue, 16 Jun 2015 17:40:00 -0500</pubDate>
+      
+      <guid>http://localhost:1313/past/</guid>
+      <description>&lt;!DOCTYPE HTML PUBLIC &#34;-//W3C//DTD HTML 4.01 Transitional//EN&#34;
+&#34;http://www.w3.org/TR/html4/loose.dtd&#34;&gt;
+&lt;html&gt;
+        &lt;head&gt;
+                &lt;title&gt;Network Security Monitoring&lt;/title&gt;
+                &lt;link rel=&#34;stylesheet&#34; href=&#34;opennsm.css&#34; title=&#34;OpenNSM&#34; /&gt;
+        &lt;/head&gt;
+        &lt;body&gt;&lt;div id=&#34;container&#34;&gt;
+                &lt;img id=&#34;logo&#34; src=&#34;opennsm_splash.jpg&#34; alt=&#34;OpenNSM Logo&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt;
+                &lt;h1&gt;The Open (-Source) Network Security Monitoring Group&lt;/h1&gt;
+                &lt;h2&gt;@UIUC&lt;/h2&gt;
+                &lt;h2&gt;a.k.a SIG NET&lt;/h2&gt;
+                &lt;div id=&#34;navcontainer&#34;&gt;
+                        
+                &lt;/div&gt;
+		&lt;div id=&#34;content&#34;&gt;
+
+			&lt;p&gt;Meeting pictures&lt;/p&gt;
+                       
+                        &lt;img src=&#34;images/nsm1.jpg&#34; alt=&#34;NSM Photo1&#34;&gt;
+                        &lt;img src=&#34;images/nsm2.jpg&#34; alt=&#34;NSM Photo2&#34;&gt;
+                        &lt;img src=&#34;images/nsm3.jpg&#34; alt=&#34;NSM Photo3&#34;&gt;
+                        &lt;img src=&#34;images/nsm-gotomeeting.jpg&#34; alt=&#34;NSM Photo GoToMeeting&#34;&gt;
+                &lt;/div&gt;
+        &lt;/div&gt;&lt;/body&gt;
+&lt;/html&gt;
+</description>
+    </item>
+    
+    <item>
       <title>about</title>
       <link>http://localhost:1313/about/</link>
       <pubDate>Tue, 16 Jun 2015 17:40:00 -0500</pubDate>
@@ -128,41 +163,6 @@ in 301 (3rd floor) &lt;a href=&#34;http://csl.illinois.edu/&#34;&gt;CSL&lt;/a&gt
 			(We also run the Linux User Group so come join us at &lt;a href=&#34;http://www.acm.uiuc.edu/lug/&#34;&gt;LUG&lt;/a&gt; after.)
 
 			&lt;br&gt;&lt;p&gt;&lt;i&gt;Site last updated on March 04, 2015&lt;/i&gt;&lt;/p&gt;
-                &lt;/div&gt;
-        &lt;/div&gt;&lt;/body&gt;
-&lt;/html&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>past meetings</title>
-      <link>http://localhost:1313/past/</link>
-      <pubDate>Tue, 16 Jun 2015 17:40:00 -0500</pubDate>
-      
-      <guid>http://localhost:1313/past/</guid>
-      <description>&lt;!DOCTYPE HTML PUBLIC &#34;-//W3C//DTD HTML 4.01 Transitional//EN&#34;
-&#34;http://www.w3.org/TR/html4/loose.dtd&#34;&gt;
-&lt;html&gt;
-        &lt;head&gt;
-                &lt;title&gt;Network Security Monitoring&lt;/title&gt;
-                &lt;link rel=&#34;stylesheet&#34; href=&#34;opennsm.css&#34; title=&#34;OpenNSM&#34; /&gt;
-        &lt;/head&gt;
-        &lt;body&gt;&lt;div id=&#34;container&#34;&gt;
-                &lt;img id=&#34;logo&#34; src=&#34;opennsm_splash.jpg&#34; alt=&#34;OpenNSM Logo&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt;
-                &lt;h1&gt;The Open (-Source) Network Security Monitoring Group&lt;/h1&gt;
-                &lt;h2&gt;@UIUC&lt;/h2&gt;
-                &lt;h2&gt;a.k.a SIG NET&lt;/h2&gt;
-                &lt;div id=&#34;navcontainer&#34;&gt;
-                        
-                &lt;/div&gt;
-		&lt;div id=&#34;content&#34;&gt;
-
-			&lt;p&gt;Meeting pictures&lt;/p&gt;
-                       
-                        &lt;img src=&#34;images/nsm1.jpg&#34; alt=&#34;NSM Photo1&#34;&gt;
-                        &lt;img src=&#34;images/nsm2.jpg&#34; alt=&#34;NSM Photo2&#34;&gt;
-                        &lt;img src=&#34;images/nsm3.jpg&#34; alt=&#34;NSM Photo3&#34;&gt;
-                        &lt;img src=&#34;images/nsm-gotomeeting.jpg&#34; alt=&#34;NSM Photo GoToMeeting&#34;&gt;
                 &lt;/div&gt;
         &lt;/div&gt;&lt;/body&gt;
 &lt;/html&gt;
