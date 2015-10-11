@@ -1,0 +1,8 @@
+all: sender_main.c receiver_main.c
+
+sender_main.o: sender_main.c
+	gcc -c sender_main.c -o sender_main.c
+
+receiver_main.o: receiver_main.c 
+	gcc -c receiver_main.c -o receiver_main.o
+
